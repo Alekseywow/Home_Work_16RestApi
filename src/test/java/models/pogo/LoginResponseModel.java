@@ -1,4 +1,4 @@
-package models;
+package models.pogo;
 
 public class LoginResponseModel {
 
@@ -9,7 +9,4 @@ public class LoginResponseModel {
         return token;
     }
 
-    public void setToken(String token) {
-        this.token = token;
-    }
 }
